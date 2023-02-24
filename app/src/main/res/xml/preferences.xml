@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference android:entries="@array/fontsize" android:title="Font Size" android:key="font_Size" android:summary="Font size will change in notes &amp; programs" android:defaultValue="16" android:entryValues="@array/fontvalue"/>
+    <Preference android:title="Rate this app" android:key="rate_us"/>
+    <Preference android:title="See More Apps" android:key="More apps"/>
+    <Preference android:title="Report a bug" android:key="Bug report" android:summary="Tell us if you found any problem"/>
+    <Preference android:title="Email us" android:key="Suggestions" android:summary="Tell us your suggestions"/>
+    <Preference android:title="About Us" android:key="about_us" android:summary="Version 1.0"/>
+</PreferenceScreen>

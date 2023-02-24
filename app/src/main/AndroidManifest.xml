@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2" android:versionName="1.1" package="com.avrutti.sarvajnanavachanagalu" android:platformBuildVersionCode="23" android:platformBuildVersionName="6.0-2704002">
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="23"/>
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:allowBackup="true" android:supportsRtl="true">
+        <activity android:label="@string/app_name" android:name="com.avrutti.sarvajnanavachanagalu.views.SwipeActivity"/>
+        <activity android:label="@string/title_activity_main" android:name="com.avrutti.sarvajnanavachanagalu.views.MainActivity"/>
+        <activity android:label="@string/title_activity_splash_screen" android:name="com.avrutti.sarvajnanavachanagalu.views.SplashScreenActivity" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_settings" android:name="com.avrutti.sarvajnanavachanagalu.views.SettingsActivity"/>
+        <activity android:label="@string/title_activity_about_us" android:name="com.avrutti.sarvajnanavachanagalu.views.AboutUsActivity"/>
+        <activity android:label="@string/title_activity_send" android:name="com.avrutti.sarvajnanavachanagalu.views.SendMailActivity" android:noHistory="true"/>
+        <activity android:label="@string/title_activity_share" android:name="com.avrutti.sarvajnanavachanagalu.views.ShareAppActivity" android:noHistory="true"/>
+    </application>
+</manifest>

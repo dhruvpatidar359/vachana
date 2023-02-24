@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="match_parent" app:cardBackgroundColor="@android:color/white" app:cardElevation="2dp" app:cardUseCompatPadding="true">
+        <LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+                <ImageView android:layout_gravity="fill" android:id="@+id/number" android:padding="5dp" android:layout_width="50dp" android:layout_height="50dp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toRightOf="@+id/number">
+                <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/cardview_dark_background" android:ellipsize="end" android:id="@+id/vachana_card_view1" android:background="@color/white" android:padding="@dimen/textview_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="adsasdasdadasd adasd" android:maxEms="15" android:singleLine="true"/>
+                <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@android:color/tertiary_text_light" android:ellipsize="end" android:id="@+id/vachana_card_view2" android:background="@color/white" android:padding="@dimen/textview_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="aasdasd asdasdasd assdsad" android:maxEms="15" android:singleLine="true" android:layout_below="@+id/vachana_card_view1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>
